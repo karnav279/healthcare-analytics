@@ -47,4 +47,4 @@ library(car)
 
 2.) Download the cleaned data file that has all the NA values replaced and where the lags have also been added. The name of this file is 'trainData_Clean.xlsx' and we want to use 'completeData_Clean' sheet sheet. Now, set up working directory using the code:
 
-setwd("folder path where your file is stored") and then follow the set of codes provided in the R file: "phase_1.R"
+setwd("folder path where your file is stored") and then follow the set of codes provided in the R file: "project_code.R"
