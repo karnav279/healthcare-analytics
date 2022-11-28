@@ -1,0 +1,50 @@
+
+#This text file has the instructions on how to run the codes to run the model
+
+Please following the following steps:
+
+1.) Before executing any codes first thing to do is download following packages using following codes in R console or R Studio:
+
+install.packages("ISLR")
+library(ISLR)
+
+install.packages("tree")
+library(tree)
+
+install.packages("boot")
+library(boot)
+
+install.packages("datasets")
+library(datasets)
+
+install.packages("e1071")
+library(e1071)
+
+install.packages("factoextra")
+library(factoextra)
+
+install.packages("ggplot2")
+library(ggplot2)
+
+install.packages("glmnet")
+library(glmnet)
+
+install.packages("randomForest")
+library(randomForest)
+
+install.packages("readxl")
+library(readxl)
+
+install.packages("leaps")
+library(leaps)
+
+install.packages("class")
+library(class)
+
+install.packages("car")
+library(car)
+
+
+2.) Download the cleaned data file that has all the NA values replaced and where the lags have also been added. The name of this file is 'trainData_Clean.xlsx' and we want to use 'completeData_Clean' sheet sheet. Now, set up working directory using the code:
+
+setwd("folder path where your file is stored") and then follow the set of codes provided in the R file: "phase_1.R"
